@@ -11,8 +11,8 @@ export const VenueSection: React.FC = () => {
                         <div className="venue-detail-item">
                             <div className="venue-icon">📍</div>
                             <div className="venue-text">
-                                        <h3>Lokalizacja</h3>
-                                        <p>Centrum Konferencyjne Tech</p>
+                                        <h3>Gdzie?</h3>
+                                        <p>Some fancy place</p>
                                         <p>123 Innovation Avenue</p>
                                         <p>Silicon Valley, CA 94025</p>
                             </div>
@@ -20,9 +20,9 @@ export const VenueSection: React.FC = () => {
                         <div className="venue-detail-item">
                             <div className="venue-icon">🕒</div>
                             <div className="venue-text">
-                                        <h3>Daty i godziny</h3>
-                                        <p>15–17 listopada 2025</p>
-                                        <p>8:00 - 18:00 codziennie</p>
+                                        <h3>Kiedy?</h3>
+                                        <p>15–17 grudnia 2025</p>
+                                        <p>16:00 - 18:00 </p>
                             </div>
                         </div>
                     </div>

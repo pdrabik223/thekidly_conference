@@ -9,11 +9,11 @@ export const InfoCards: React.FC<{}> = () => {
       {/* First feature - Image on left, text on right */}
       <div className="feature-item">
         <div className="feature-image">
-          <img src="/placeholder1.jpg" alt="Keynote Speakers" />
+          <img src="/public\AdobeStock_142215477-e1584628508970.jpeg" alt="Keynote Speakers" />
         </div>
         <div className="feature-content">
-          <h2>Prelegenci światowej klasy</h2>
-          <p>Zainspiruj się liderami branży i wizjonerami, którzy kształtują przyszłość technologii. Nasi prelegenci dzielą się unikalnymi spostrzeżeniami i doświadczeniem.</p>
+          <h2>Przesiewowe badania postawy</h2>
+          <p>Badania są bardzo ważne i będziemy je robić wam.</p>
           <a href="/speakers" className="feature-button">Poznaj prelegentów</a>
         </div>
       </div>
@@ -21,11 +21,11 @@ export const InfoCards: React.FC<{}> = () => {
       {/* Second feature - Image on right, text on left */}
       <div className="feature-item reverse">
         <div className="feature-image">
-          <img src="/placeholder2.jpg" alt="Interactive Workshops" />
+          <img src="/public\9.webp" alt="Interactive Workshops" />
         </div>
         <div className="feature-content">
-          <h2>Warsztaty praktyczne</h2>
-          <p>Weź udział w praktycznych sesjach, podczas których zdobędziesz nowe umiejętności, przetestujesz nowoczesne technologie i będziesz współpracować z innymi deweloperami.</p>
+          <h2>Zajęcia artystyczne i sportowe dla dzieci</h2>
+          <p>Szkoły uczestniczące w .</p>
           <a href="/workshops" className="feature-button">Zobacz warsztaty</a>
         </div>
       </div>
@@ -33,10 +33,10 @@ export const InfoCards: React.FC<{}> = () => {
       {/* Third feature - Image on left, text on right */}
       <div className="feature-item">
         <div className="feature-image">
-          <img src="/placeholder3.jpg" alt="Networking Events" />
+          <img src="/public/studio-300x200.jpg" alt="Networking Events" />
         </div>
         <div className="feature-content">
-          <h2>Możliwości networkingu</h2>
+          <h2>Zajęcia 25 Frames studio</h2>
           <p>Nawiąż kontakty z rówieśnikami, mentorami i profesjonalistami z branży w naszych przestrzeniach do networkingu. Buduj relacje, które przetrwają konferencję.</p>
           <a href="/networking" className="feature-button">Zobacz wydarzenia</a>
         </div>

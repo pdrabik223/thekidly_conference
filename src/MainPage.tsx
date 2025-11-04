@@ -9,13 +9,13 @@ import { InfoCards } from './components/InfoCards';
 
 export const MainPage: React.FC<{}> = () => {
   return (
-    <main className="main-content">
+    <main>
       <section id="home">
         <MainCarousel />
       </section>
-      <InfoCards></InfoCards>
-      <ScheduleSection /> 
+      <InfoCards/>
       <VenueSection />
+      <ScheduleSection />
       <SignUpForm />
       <PartnersRow />
     </main>

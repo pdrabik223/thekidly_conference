@@ -3,14 +3,14 @@ import './PartnersRow.css';
 
 export const PartnersRow: React.FC = () => {
   const partners = [
-    { name: "Tech Corp", logo: "/partner1.png" },
-    { name: "Innovation Labs", logo: "/partner2.png" },
-    { name: "Future Systems", logo: "/partner3.png" },
-    { name: "Digital Solutions", logo: "/partner4.png" },
-    { name: "Cloud Services", logo: "/partner5.png" },
-    { name: "Dev Tools Inc", logo: "/partner6.png" },
-    { name: "AI Research", logo: "/partner7.png" },
-    { name: "Smart Tech", logo: "/partner8.png" }
+    { name: "Kidstation", logo: "public\\logo-kidstation.webp", url: 'https://kidstation.pl/' },
+    { name: "TheKIdly", logo: "public\\logo_the_kidly.png", url: 'https://thekidly.com/' },
+    // { name: "Future Systems", logo: "/partner3.png" },
+    // { name: "Digital Solutions", logo: "/partner4.png" },
+    // { name: "Cloud Services", logo: "/partner5.png" },
+    // { name: "Dev Tools Inc", logo: "/partner6.png" },
+    // { name: "AI Research", logo: "/partner7.png" },
+    // { name: "Smart Tech", logo: "/partner8.png" }
   ];
 
   // Double the partners array to create seamless scrolling

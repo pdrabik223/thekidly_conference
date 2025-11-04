@@ -4,30 +4,36 @@ import './ScheduleSection.css';
 export const ScheduleSection: React.FC = () => {
   const scheduleItems = [
     {
-      time: "9:00",
-      title: "Rejestracja i śniadanie",
-      description: "Zarejestruj się i skorzystaj z bezpłatnego śniadania"
+      time: "16:00",
+      title: "Otwarcie konferencji",
+      description: "Przywitanie gości oraz zakreślenie skali problemu"
     },
     {
-      time: "10:00",
-      title: "Wykład otwierający",
-      description: "Przemówienie powitalne i wykład"
+      time: "16:30",
+      title: "Oficjalne ogłoszenie współpracy",
+      description: "Podpisanie listu intencjonalnego"
     },
     {
-      time: "11:30",
-      title: "Sesje techniczne",
-      description: "Równoległe ścieżki obejmujące różne tematy"
+      time: "17:00",
+      title: "Jak technologia może leczyć dzieci",
+      description: "Przedstawienie rozwiązań wspierających szkołę i rodzica w monitorowaniu rozwoju dzieci"
     },
     {
-      time: "13:00",
-      title: "Przerwa na lunch",
-      description: "Przerwa na lunch i networking"
+      time: "17:30",
+      title: "Przedstawienie projektu XX",
+      description: "Zakres działań oraz współpracy między TheKidly a placówkami"
     },
     {
-      time: "14:00",
-      title: "Warsztaty",
+      time: "18:00",
+      title: "Sekcja QaA oraz zapisy do projektu",
       description: "Warsztaty praktyczne w różnych obszarach technologicznych"
+    },
+    {
+      time: "18:30",
+      title: "Zakończenie konferencji",
+      description: "Podziękowanie za uwagę i obecność"
     }
+
   ];
 
   return (

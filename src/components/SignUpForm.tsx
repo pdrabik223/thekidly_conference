@@ -7,6 +7,7 @@ export const SignUpForm: React.FC = () => {
     lastName: '',
     email: '',
     school: '',
+    institutionType: '',
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -60,12 +61,25 @@ export const SignUpForm: React.FC = () => {
                 required />
             </div>
             <div className="form-group">
-              <label>Uczelnia</label>
+              <label>Adres placówki</label>
               <input
                 type="text"
                 name="school"
                 value={formData.school}
                 onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Rodzaj placówki</label>
+              <select
+                name="institutionType"
+                value={formData.institutionType}
+                onChange={handleChange}
+              >
+                <option value="">Wybierz...</option>
+                <option value="szkola">Szkoła</option>
+                <option value="przedszkole">Przedszkole</option>
+                <option value="oba">Oba</option>
+              </select>
             </div>
             {/* <div className="form-group">
               <label className="required-field">Experience Level</label>

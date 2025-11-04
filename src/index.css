@@ -14,12 +14,13 @@
 }
 
 body {
-  margin: 0;
-  display: flex;
+  margin: auto;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 * {
