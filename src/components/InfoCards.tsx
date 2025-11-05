@@ -13,7 +13,7 @@ export const InfoCards: React.FC<{}> = () => {
         </div>
         <div className="feature-content">
           <h2>Przesiewowe badania postawy</h2>
-          <p>Badania są bardzo ważne i będziemy je robić wam.</p>
+          <p>Projekt obejmuje badania realizowane przez fizjoterapeutów przy wsparciu systemów sztucznej inteligencji, umożliwiających wczesne wykrycie wad postawy.</p>
           <a href="https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf" className="feature-button">Poznaj projekt badań przesiewowych</a>
         </div>
       </div>
@@ -25,7 +25,7 @@ export const InfoCards: React.FC<{}> = () => {
         </div>
         <div className="feature-content">
           <h2>Zajęcia artystyczne i sportowe dla dzieci</h2>
-          <p>Szkoły uczestniczące w .</p>
+          <p>Celem nie jest wychowanie mistrza. Celem jest wychowanie ludzi kochających aktywne i kreatywne spędzanie czasu.</p>
           <a href="/workshops" className="feature-button">Zobacz warsztaty</a>
         </div>
       </div>
