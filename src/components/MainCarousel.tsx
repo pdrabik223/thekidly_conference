@@ -7,7 +7,7 @@ export const MainCarousel: React.FC = () => {
   React.useEffect(() => {
     const timer = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % 3);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(timer);
   }, []);
 
@@ -27,7 +27,13 @@ export const MainCarousel: React.FC = () => {
       buttonText: "Więcej informacji",
       buttonLink: "https://www.umw.edu.pl/pl/nabieramy-odwagi"
     },
-
+    {
+      title: "Darmowe badania przesiewowe",
+      description: "Szkoły i przedszkola uczestniczące w konferencji  zaproszone zostaną do udziału w promie badań przesiewowych wad postawy, przeprowadzanych przez fizjoterapeutów na miejscu w zgłoszonych placówkach",
+      backgroundImagePath: null,
+      buttonText: "Więcej informacji",
+      buttonLink: "https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf"
+    },
     {
       title: "Współpraca z firmami",
       description: "Podczas wydarzenia zaprezentowane zostaną również innowacyjne rozwiązania wspierające rodziców w samodzielnym monitorowaniu rozwoju i stanu zdrowia dziecka",
@@ -35,14 +41,6 @@ export const MainCarousel: React.FC = () => {
       buttonText: "Więcej informacji",
       buttonLink: "https://thekidly.com/"
     },
-
-    {
-      title: "Darmowe badania przesiewowe",
-      description: "Szkoły i przedszkola uczestniczące w konferencji  zaproszone zostaną do udziału w promie badań przesiewowych wad postawy, przeprowadzanych przez fizjoterapeutów na miejscu w zgłoszonych placówkach",
-      backgroundImagePath: null,
-      buttonText: "Więcej informacji",
-      buttonLink: "https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf"
-    }
   ];
 
   return (
