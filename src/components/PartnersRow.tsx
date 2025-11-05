@@ -1,10 +1,15 @@
 import type React from 'react';
 import './PartnersRow.css';
 
+
+
+
+
 export const PartnersRow: React.FC = () => {
   const partners = [
     { name: "Kidstation", logo: "public\\logo-kidstation.webp", url: 'https://kidstation.pl/' },
     { name: "TheKIdly", logo: "public\\logo_the_kidly.png", url: 'https://thekidly.com/' },
+    { name: "Decatlon", logo: "public\\decatlon.svg", url: 'https://www.decathlon.pl/' },
     // { name: "Future Systems", logo: "/partner3.png" },
     // { name: "Digital Solutions", logo: "/partner4.png" },
     // { name: "Cloud Services", logo: "/partner5.png" },
