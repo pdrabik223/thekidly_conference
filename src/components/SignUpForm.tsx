@@ -61,7 +61,7 @@ export const SignUpForm: React.FC = () => {
                 required />
             </div>
             <div className="form-group">
-              <label>Adres placówki</label>
+              <label className="required-field">Adres placówki</label>
               <input
                 type="text"
                 name="school"
@@ -69,7 +69,7 @@ export const SignUpForm: React.FC = () => {
                 onChange={handleChange} />
             </div>
             <div className="form-group">
-              <label>Rodzaj placówki</label>
+              <label className="required-field">Rodzaj placówki</label>
               <select
                 name="institutionType"
                 value={formData.institutionType}
@@ -81,22 +81,7 @@ export const SignUpForm: React.FC = () => {
                 <option value="oba">Oba</option>
               </select>
             </div>
-            {/* <div className="form-group">
-              <label className="required-field">Experience Level</label>
-              <select
-                name="experience"
-                value={formData.experience}
-                onChange={handleChange}
-                required
-              >
-                <option value="">Select experience level</option>
-                <option value="beginner">Beginner (0-2 years)</option>
-                <option value="intermediate">Intermediate (3-5 years)</option>
-                <option value="advanced">Advanced (5-10 years)</option>
-                <option value="expert">Expert (10+ years)</option>
-              </select>
-            </div> */}
-
+           
           </div>
           <button type="submit" className="submit-button">
             Zarejestruj się
