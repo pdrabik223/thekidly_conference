@@ -2,6 +2,8 @@ import type React from 'react';
 import './Footer.css';
 
 export const Footer: React.FC<{}> = () => {
+
+
   return (
     <footer className="footer">
       <div className="footer-content">
@@ -11,10 +13,8 @@ export const Footer: React.FC<{}> = () => {
         </div>
         <div className="footer-section">
           <h3>Przydatne linki</h3>
-          <p><a href="/schedule">Program konferencji</a></p>
-          <p><a href="/speakers">Prelegenci</a></p>
-          <p><a href="/venue">Informacje o miejscu</a></p>
-          <p><a href="/faq">FAQ</a></p>
+          <p><a href="https://www.umw.edu.pl/pl/nabieramy-odwagi">#nabieraMyodwagi</a></p>
+          <p><a href="https://www.umw.edu.pl/pl">Uniwersytet Medyczny we Wrocławiu</a></p>
         </div>
         <div className="footer-section">
           <h3>Kontakt</h3>
@@ -30,3 +30,4 @@ export const Footer: React.FC<{}> = () => {
     </footer>
   );
 };
+

@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import { NavBar } from './components/NavBar'
 import { Footer } from './components/Footer'
 import { MainPage } from './MainPage'
+import { FullScreenOverlay } from './components/FullScreenOverlay'
 
 function App() {
 
@@ -30,7 +31,7 @@ export const Rodo: React.FC<{}> = () => {
   return (
     <main>
       <section id="Summary">
-    
+
       </section>
     </main>
   );

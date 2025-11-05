@@ -15,7 +15,7 @@ export const NavBar: React.FC<{}> = () => {
 
   return (
     <nav className="navbar">
-      <a href="#home" className="navbar-brand" onClick={scrollToSection('home')}>Konferencja Tech</a>
+      <a href="#home" className="navbar-brand" onClick={scrollToSection('home')}>#nabieraMyodwagi</a>
       <button
         className="menu-button"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
