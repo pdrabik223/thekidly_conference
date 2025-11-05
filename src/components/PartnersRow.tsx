@@ -35,7 +35,7 @@ export const PartnersRow: React.FC = () => {
                 {/* Fallback to showing partner name if image fails to load */}
                 <img
                   src={partner.logo}
-                  alt={`${partner.name} logo`}
+                  alt={partner.name}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
