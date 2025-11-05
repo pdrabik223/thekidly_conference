@@ -23,7 +23,7 @@ export const MainPage: React.FC<{}> = () => {
       </section>
       
       <h1 style={{ textAlign: 'center' }}>Podczas konferencji oferujemy możliwość zapisów na nasze darmowe programy</h1>
-      <p style={{ textAlign: 'center' }}> Uczestnictwo w programach jest darmowe i dobrowolne, zapisy do programów możliwe są wyłącznie pod zas konferencji</p>
+      <p style={{ textAlign: 'center' }}> Uczestnictwo w programach jest darmowe oraz dobrowolne, zapisy do programów możliwe są wyłącznie podczas konferencji</p>
       <InfoCards />
       <VenueSection />
       <ScheduleSection />

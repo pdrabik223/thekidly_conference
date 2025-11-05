@@ -21,8 +21,8 @@ export const MainCarousel: React.FC = () => {
 
   const slides = [
     {
-      title: "Zdrowe dzieci Zdrowa przyszłość",
-      description: "Konferencja poświęcona jest problematyce zagrożeń zdrowotnych oraz chorób cywilizacyjnych pojawiających się u dzieci w wieku przedszkolnym i szkolnym",
+      title: "Zdrowe dzieci - Zdrowa przyszłość",
+      description: "Tematyka konferencji obejmuje zagrożenia zdrowotne oraz choroby cywilizacyjne, które dotyczą dzieci w wieku przedszkolnym i szkolnym",
       backgroundImagePath: "public/baner strona modułowa nabieraMYodwagi.jpg.webp",
       buttonText: "Więcej informacji",
       buttonLink: "https://www.umw.edu.pl/pl/nabieramy-odwagi"
@@ -38,7 +38,7 @@ export const MainCarousel: React.FC = () => {
 
     {
       title: "Darmowe badania przesiewowe",
-      description: "Szkoły i przedszkola uczestniczące w konferencji  zaproszone zostaną do udziału w promie badań przesiewowych wad postawy, przeprowadzanych przez fizjoterapeutów na miejscu w zgłoszonych placówkach",
+      description: "Szkoły i przedszkola uczestniczące w konferencji  będą miały możliwość zapisania się do programu badań przesiewowych wad postawy, przeprowadzanych przez fizjoterapeutów w zgłoszonych placówkach",
       backgroundImagePath: null,
       buttonText: "Więcej informacji",
       buttonLink: "https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf"
