@@ -9,7 +9,7 @@ export const InfoCards: React.FC<{}> = () => {
       {/* First feature - Image on left, text on right */}
       <div className="feature-item">
         <div className="feature-image">
-          <img src="/public\AdobeStock_142215477-e1584628508970.jpeg" alt="Keynote Speakers" />
+          <img src="/public\ChatGPT Image Nov 5, 2025, 02_28_02 PM.png" alt="Keynote Speakers" />
         </div>
         <div className="feature-content">
           <h2>Przesiewowe badania postawy</h2>
@@ -21,7 +21,7 @@ export const InfoCards: React.FC<{}> = () => {
       {/* Second feature - Image on right, text on left */}
       <div className="feature-item reverse">
         <div className="feature-image">
-          <img src="/public\9.webp" alt="Interactive Workshops" />
+          <img src="/public\kids-playing-football-outdoors.jpg" alt="Interactive Workshops" />
         </div>
         <div className="feature-content">
           <h2>Zajęcia artystyczne i sportowe dla dzieci</h2>
