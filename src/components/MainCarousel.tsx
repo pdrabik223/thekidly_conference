@@ -21,22 +21,27 @@ export const MainCarousel: React.FC = () => {
 
   const slides = [
     {
-      title: "Konferencja Tech 2025",
-      description: "Dołącz do nas na trzy dni innowacji, nauki i networkingu z liderami branży",
-      buttonText: "Kup bilety",
-      buttonLink: "/tickets"
+      title: "Zdrowe dzieci Zdrowa przyszłość",
+      description: "Konferencja poświęcona jest problematyce zagrożeń zdrowotnych oraz chorób cywilizacyjnych pojawiających się u dzieci w wieku przedszkolnym i szkolnym",
+      backgroundImagePath: "public/baner strona modułowa nabieraMYodwagi.jpg.webp",
+      buttonText: "Więcej informacji",
+      buttonLink: "https://www.umw.edu.pl/pl/nabieramy-odwagi"
     },
+
     {
-      title: "Prelegenci światowej klasy",
-      description: "Ucz się od ponad 50 międzynarodowych ekspertów dzielących się wiedzą i doświadczeniem",
-      buttonText: "Zobacz prelegentów",
-      buttonLink: "/speakers"
+      title: "Współpraca z firmami",
+      description: "Podczas wydarzenia zaprezentowane zostaną również innowacyjne rozwiązania wspierające rodziców w samodzielnym monitorowaniu rozwoju i stanu zdrowia dziecka",
+      backgroundImagePath: "public/baner strona modułowa nabieraMYodwagi.jpg.webp",
+      buttonText: "Więcej informacji",
+      buttonLink: "https://thekidly.com/"
     },
+
     {
-      title: "Warsztaty praktyczne",
-      description: "Sesje praktyczne, które pomogą Ci opanować najnowsze technologie i frameworki",
-      buttonText: "Zobacz program",
-      buttonLink: "/schedule"
+      title: "Darmowe badania przesiewowe",
+      description: "Szkoły i przedszkola uczestniczące w konferencji  zaproszone zostaną do udziału w promie badań przesiewowych wad postawy, przeprowadzanych przez fizjoterapeutów na miejscu w zgłoszonych placówkach",
+      backgroundImagePath: null,
+      buttonText: "Więcej informacji",
+      buttonLink: "https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf"
     }
   ];
 
@@ -56,6 +61,10 @@ export const MainCarousel: React.FC = () => {
           className={`carousel-slide slide${index + 1}`}
           style={{ transform: `translateX(${(index - activeSlide) * 100}%)` }}
         >
+          {/* {slide.backgroundImagePath != null ? <img
+            src={slide.backgroundImagePath} alt="BackgroundImg"
+
+          ></img> : undefined} */}
           <div className="carousel-content">
             <h2>{slide.title}</h2>
             <p>{slide.description}</p>

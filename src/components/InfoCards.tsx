@@ -14,7 +14,7 @@ export const InfoCards: React.FC<{}> = () => {
         <div className="feature-content">
           <h2>Przesiewowe badania postawy</h2>
           <p>Badania są bardzo ważne i będziemy je robić wam.</p>
-          <a href="/speakers" className="feature-button">Poznaj prelegentów</a>
+          <a href="https://thekidly.com/wp-content/uploads/2024/05/Zgoda-rodzica-na-badanie.pdf" className="feature-button">Poznaj projekt badań przesiewowych</a>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ export const InfoCards: React.FC<{}> = () => {
         <div className="feature-content">
           <h2>Zajęcia 25 Frames studio</h2>
           <p>Nawiąż kontakty z rówieśnikami, mentorami i profesjonalistami z branży w naszych przestrzeniach do networkingu. Buduj relacje, które przetrwają konferencję.</p>
-          <a href="/networking" className="feature-button">Zobacz wydarzenia</a>
+          <a href="/networking" className="feature-button">Czytaj więcej o zajęciach</a>
         </div>
       </div>
     </div>

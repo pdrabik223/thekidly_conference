@@ -16,8 +16,8 @@ export const NavBar: React.FC<{}> = () => {
   return (
     <nav className="navbar">
       <a href="#home" className="navbar-brand" onClick={scrollToSection('home')}>Konferencja Tech</a>
-      <button 
-        className="menu-button" 
+      <button
+        className="menu-button"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         aria-label="Toggle menu"
       >
@@ -27,6 +27,8 @@ export const NavBar: React.FC<{}> = () => {
         <a href="#home" onClick={scrollToSection('home')}>Start</a>
         <a href="#schedule" onClick={scrollToSection('schedule')}>Program</a>
         <a href="#register" onClick={scrollToSection('register')}>Rejestracja</a>
+        <a>Rodo</a>
+
       </div>
     </nav>
   );
